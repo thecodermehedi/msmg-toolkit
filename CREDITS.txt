@@ -1,0 +1,37 @@
+Credits:
+========
+
+This Toolkit uses several thrid party components and I'm grateful to these developers for their contributions.
+
+7z.exe : Igor Pavlov, https://www.7-zip.org/
+Dism++CUI.exe : Chuyu, https://www.chuyu.me/
+esddecrypt.exe : murphy78 @ MDL (Compilation), qad @ MDL (Prototype)
+NSudo.exe : M2-Team, https://github.com/M2Team/NSudo
+ToolkitHelper.exe : MSMG, https://msmgtoolkit.in
+ResourceHacker.exe : Angus Johnson, https://www.angusj.com/resourcehacker/
+wimlib-imagex.exe : Eric Biggers, https://wimlib.net/
+
+This Toolkit uses several packs and I'm grateful to these people for their contributions to the Toolkit packs.
+
+abbodi1406        : Microsoft .NET Framework 3.5 MUI pack for Windows 8.1, Microsoft .NET Framework 4.8 pack, Windows Data
+                    Deduplication packages, Windows 8.1/10 default Metro Apps repository, WHD repository update lists, Windows 7 ESU update patch.
+Alphawaves        : For making MSMG Toolkit thread a sticky one and WHD Downloader tool.
+Ef1               : Microsoft DaRT 10 packages files.
+ElDiabl0          : Windows 7 Games (Tinker, Hold'Em) MUI packages files.
+kelorgo           : How-To generate WMC generic actiavtion tokens.
+Kenafri           : Modding MSMG Toolkit packs registry files to support dynamic paths, Microsoft Pinball Game pack multilingual packages files, Windows Sidebar, Windows 10 WinToGo Workspace packages.
+lite8             : Registry tweak to make hidden package visible for removal.
+LostED            : Providing download mirror links for MSMG Toolkit.
+Melinda Bellemore : SxS Package Extractor.
+murphy78          : Microsoft DaRT 7/8.1/10 packages files.
+moderate          : Windows Vista and Windows 7 Games packages files, Windows Data Deduplication packages, WinToGo Workspace packages, Fraunhofer MP3 Pro Codec Tweak.
+Mr Jinje          : How-To patch Windows Terminal Server files (termsrv.dll).
+Tito              : Windows Vista and Windows 7 Games executable patch tool, Windows 10 Windows To Go Workspace packages.
+TS                : Windows Linux SubSystems packages.
+qad               : Providing ESD Decrypt prototype source code.
+Xinso             : Tweak to integrate old/new version cab packages.
+RaiyvaN           : Code Optimization.
+IMI Kurwic        : Windows 7 ESU update patch.
+th1r5bvn23        : PSFExtractor tool.
+
+I'm also grateful to all other MDL members who have contributed to this Toolkit in the form of feedback, troubleshooting and suggestions.

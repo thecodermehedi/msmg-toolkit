@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://msmgtoolkit.in">
+  <a href="https://msmgtoolkit.in" target=”_blank”>
   <img src="https://user-images.githubusercontent.com/89072438/168812773-7dc24fec-deb5-4105-ad19-4d00b9825adf.png" alt="MSMG Toolkit Logo">
 </a>
 </p>

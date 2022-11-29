@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">MSMG Toolkit</h1>
 
-<h4 align="center">This is an unofficial repo for msmg toolkit i created for backup purposes.</h4>
+<h4 align="center">This is an <b> unofficial </b> repo for msmg toolkit i created for backup purposes.</h4>
 MSMG ToolKit creates a slimmed down or bloat-free Windows by customizing, adding, or removing features and components and enabling or disabling features to Microsoft Windows 7, 8, 10, and 11.
 
 Everything is done through a DOS command prompt, but typing in letters to get where you want, meaning no complicated DOS commands or DOS knowledge is needed. We have always loved the entire goal at MajorGeeks, creating a lightweight, bloat-free Windows version. Expect to spend a small amount of time getting everything you want the way you want. You can also restore most things you remove, should you change your mind later.

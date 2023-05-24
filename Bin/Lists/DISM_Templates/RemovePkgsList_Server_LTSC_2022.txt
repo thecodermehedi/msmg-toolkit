@@ -1,0 +1,108 @@
+; Some packages may not exist in certain versions, architecture and editions.
+; Change en-us to your language code.
+
+## Multimedia ##
+
+; Game Explorer
+Microsoft-Windows-GameUX-Package
+
+; Snipping Tool
+Microsoft-Windows-SnippingTool-Package
+
+; Speech Recognition
+Microsoft-OneCore-SpeechComponents-Package
+Microsoft-Windows-LanguageFeatures-Speech-en-us-avcore-Package
+Microsoft-Windows-LanguageFeatures-Speech-en-us-enduser-Package
+Microsoft-Windows-LanguageFeatures-Speech-en-us-onecoreuap-Package
+Microsoft-Windows-LanguageFeatures-Speech-en-us-Package
+Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-enduser-Package
+Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-onecoreuap-Package
+Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package
+
+; Windows Media Player
+Microsoft-Windows-MediaPlayback-OC-Package
+Microsoft-Windows-MediaPlayer-Package
+Microsoft-Windows-MediaPlayer-Package-Wrapper
+Microsoft-Windows-MediaPlayer-Payload-Package
+Microsoft-Windows-SQL-Lite-Package
+Microsoft-Windows-SQL-Lite-WOW64-Package
+Microsoft-Windows-WindowsMediaPlayer-Troubleshooters-Package
+Microsoft-Windows-WMPNetworkSharingService-Opt-Package
+Microsoft-Windows-WMPNetworkSharingService-Opt-WOW64-Package
+Microsoft-Windows-WMPNetworkSharingService-Package
+Microsoft-Windows-WMPNetworkSharingService-WOW64-Package
+Microsoft-Windows-WPD-LegacyWmdmFeature-Feature-Package
+Microsoft-Windows-WPD-LegacyWmdmFeature-Feature-WOW64-Package
+
+; Windows Photo Viewer
+Microsoft-Windows-PhotoBasic-Feature-Package
+Microsoft-Windows-PhotoBasic-Feature-WOW64-Package
+Microsoft-Windows-PhotoBasic-merged-Package
+Microsoft-Windows-PhotoBasic-Package
+Microsoft-Windows-PhotoBasic-PictureTools-Package
+Microsoft-Windows-PhotoBasic-PictureTools-WOW64-Package
+Microsoft-Windows-PhotoBasic-WOW64-merged-Package
+Microsoft-Windows-PhotoBasic-WOW64-Package
+
+; Windows TIFF IFilter (OCR)
+Media-Ocr-Package
+Microsoft-Windows-LanguageFeatures-OCR-en-us-Package
+Microsoft-Windows-WinOcr-Opt-Package
+Microsoft-Windows-WinOcr-Package
+
+; WinSAT
+Microsoft-Windows-WinSATMediaFiles-Package
+Microsoft-Windows-WinSat-Package
+
+## Network ##
+
+; Internet Explorer
+Microsoft-Windows-IE-Troubleshooters-Package
+Microsoft-Windows-InternetExplorer-merged-Package
+Microsoft-Windows-InternetExplorer-Optional-Package
+Microsoft-Windows-InternetExplorer-Package
+Microsoft-Windows-InternetExplorer-Package-ua
+Microsoft-Windows-InternetExplorer-Required-Package
+
+; Offline Files
+Microsoft-Windows-OfflineFiles-merged-Package
+Microsoft-Windows-OfflineFiles-Package
+Microsoft-Windows-OfflineFiles-UI-Package
+Microsoft-Windows-OfflineFiles-WOW64-Package
+
+; OpenSSH
+Microsoft-OneCore-LibreSSL-Package
+Microsoft-OneCore-OpenSSH-ClientOnly-Package
+Microsoft-OneCore-OpenSSH-Common-Package
+OpenSSH-Client-Package
+
+; Remote Differential Compression
+Microsoft-Windows-RDC-Opt-Package
+Microsoft-Windows-RDC-Opt-WOW64-Package
+Microsoft-Windows-RDC-Package
+Microsoft-Windows-RDC-WOW64-Package
+
+; Simple TCP/IP Services
+Microsoft-Windows-SimpleTCP-Opt-Package
+Microsoft-Windows-SimpleTCP-Package
+
+; Telnet Client
+Microsoft-Windows-Telnet-Client-Opt-Package
+Microsoft-Windows-Telnet-Client-Package
+
+; TFTP Client
+Microsoft-Windows-TFTP-Client-Opt-Package
+Microsoft-Windows-TFTP-Client-Package
+
+## Privacy ##
+
+## Remoting ##
+
+; Remote Desktop Client
+Microsoft-Windows-TerminalServices-UsbRedirector-Package
+
+## System ##
+
+
+## System Apps ##
+

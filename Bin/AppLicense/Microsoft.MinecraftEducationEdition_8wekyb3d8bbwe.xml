@@ -1,0 +1,39 @@
+<License xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="59eab21f-76f6-4b18-842f-79c96ada50c9" LicenseID="bcccf185-01fb-4b09-97d3-f8d5bb59f569" ContentID="ad6a119f-978a-62c1-5f10-c017dde2343a" Version="3"
+    xmlns="urn:schemas-microsoft-com:windows:store:licensing:ls">
+    <Binding Binding_Type="Machine">
+        <ProductID>9NBLGGH4R2R6</ProductID>
+        <PFM>microsoft.minecrafteducationedition_8wekyb3d8bbwe</PFM>
+        <LicenseInstanceID>d3bb6ee8-26fd-476e-bbea-6231764d8134</LicenseInstanceID>
+        <RequestorID>2c3f1d47-426d-c7d7-face-ef1add208818</RequestorID>
+        <LeaseRequired>False</LeaseRequired>
+    </Binding>
+    <LicenseInfo Type="Full" LicenseUsage="Offline" LicenseCategory="OEM">
+        <IssuedDate>2021-03-10T22:50:25.6995118Z</IssuedDate>
+        <LastUpdateDate>2021-03-10T22:50:25.7027147Z</LastUpdateDate>
+        <BeginDate>2021-03-10T22:50:25.7027147Z</BeginDate>
+    </LicenseInfo>
+    <SPLicenseBlock>FAAAAMwAAADJAAAACgAAAAMAAQAyTUlgAgDLAAAAEAAAAIXxzLz7AQlLl9P41btZ9WnOAAAAZAAAAG0AaQBjAHIAbwBzAG8AZgB0AC4AbQBpAG4AZQBjAHIAYQBmAHQAZQBkAHUAYwBhAHQAaQBvAG4AZQBkAGkAdABpAG8AbgBfADgAdwBlAGsAeQBiADMAZAA4AGIAYgB3AGUAAADNAAAAIgAAAAEAUmMBaXLeIT50LL6B6FYykzrqDhqQh/kA3pTv2fOu0WMgAAAABAAAADJNSWDMAAAARAAAAAEAAgAQyd7nwmxC117uTyzvN/WtMvxFWXDmfTu1ufGjhnMOLUkREDjeFqIn7R/DtS6P7dVx0XBSaP/c8+XpSLE/CyWg</SPLicenseBlock>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+                <DigestValue>DKWuicxWN3h79Rq86Lc69gcAVQpaZhxFEmvV61FePiI=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>nLurRa22ep3ngzM8k0lxNS7opKfeI7s0tZuMPl50PhAV34pFBi+9VB8M2Oh0JCuP9Ws8o5M01bEtkmnO8RphntWhDXm/DUYZSDnTOF0zPTi1T/kBWPiOWiXYIr7ZhvZTFoRDdScOPn2DaAM8R0GnNxKE/KKcV9F5XgfHSzZ/N2TRy3iRZMuDg7wROX58DgNr0S8csFwUDuKaht95eESdOOmzjMPQxu296MAlBx5FkQP8sGHuiDkltqUoqU1ZlIsVnFYqsBG81AQxnN1wUgSacpZtQ5P0alTRQ9dNHybfVXEonpGo7MCs2+trxaX0KyDV2si5F2684sE6V656VB8/7g==</SignatureValue>
+        <KeyInfo Id="_0f81b24f-bc40-2712-0d5d-e7c10085c330">
+            <KeyValue>
+                <RSAKeyValue>
+                    <Modulus>oVSJXItDsaAIfwyR9bhh/ZSppCAO+in9POLWdC2/TQodgeHZzbdBvxJvKhpbrq6ZP0FsSElLwRoLAmv7zIuVw3Vb7tfQt5bjCDHRAG9fesNlYKV3ybyNrHyzglfZPRB5UJZw32yi03zQa+LLa05fjs6joEmlHc5BrGQrGrbNMBahz4cmuxKC4/dhEb7JZFUkc0MRhs/M3Ve511HQfKuG+92g1OffJdRsAPzWRdskPoN35knnqno7F85OBmGV/LNBgdtDWUH6di1eUCQFeKGfMp+Q/LFUX9jawTTEPn72tYbpYASug05Skcg6KTHlcLGzevxGw7BYsOsqfDka5n0YGw==</Modulus>
+                    <Exponent>AAEAAQ==</Exponent>
+                </RSAKeyValue>
+            </KeyValue>
+        </KeyInfo>
+    </Signature>
+</License>

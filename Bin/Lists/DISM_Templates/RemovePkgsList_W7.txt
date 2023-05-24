@@ -1,0 +1,2 @@
+; Some packages may not exist in certain versions, architecture and editions.
+; Change en-us to your language code.

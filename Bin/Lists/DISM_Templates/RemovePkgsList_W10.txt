@@ -1,0 +1,317 @@
+; Some packages may not exist in certain versions, architecture and editions.
+; Change en-us to your language code.
+
+## Multimedia ##
+
+; Game Explorer
+Microsoft-Windows-GameUX-Package
+
+; Speech Recognition
+Microsoft-Windows-LanguageFeatures-Speech-en-us-avcore-Package
+Microsoft-Windows-LanguageFeatures-Speech-en-us-enduser-Package
+Microsoft-Windows-LanguageFeatures-Speech-en-us-onecoreuap-Package
+Microsoft-Windows-LanguageFeatures-Speech-en-us-Package
+Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-enduser-Package
+Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-onecoreuap-Package
+Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package
+
+; Windows Media Player
+Microsoft-Windows-MediaPlayback-OC-Package
+Microsoft-Windows-MediaPlayer-Package
+Microsoft-Windows-MediaPlayer-Package-Wrapper
+Microsoft-Windows-MediaPlayer-Payload-Package
+Microsoft-Windows-SQL-Lite-Package
+Microsoft-Windows-SQL-Lite-WOW64-Package
+Microsoft-Windows-WindowsMediaPlayer-Troubleshooters-Package
+Microsoft-Windows-WMPNetworkSharingService-Opt-Package
+Microsoft-Windows-WMPNetworkSharingService-Opt-WOW64-Package
+Microsoft-Windows-WMPNetworkSharingService-Package
+Microsoft-Windows-WMPNetworkSharingService-WOW64-Package
+Microsoft-Windows-WPD-LegacyWmdmFeature-Feature-Package
+Microsoft-Windows-WPD-LegacyWmdmFeature-Feature-WOW64-Package
+
+; Windows Photo Viewer
+Microsoft-Windows-PhotoBasic-Feature-Package
+Microsoft-Windows-PhotoBasic-Feature-WOW64-Package
+Microsoft-Windows-PhotoBasic-multimedia-Package
+Microsoft-Windows-PhotoBasic-merged-Package
+Microsoft-Windows-PhotoBasic-Package
+Microsoft-Windows-PhotoBasic-PictureTools-Package
+Microsoft-Windows-PhotoBasic-PictureTools-WOW64-Package
+Microsoft-Windows-PhotoBasic-WOW64-multimedia-Package
+Microsoft-Windows-PhotoBasic-WOW64-merged-Package
+Microsoft-Windows-PhotoBasic-WOW64-Package
+
+; Windows TIFF IFilter (OCR)
+Microsoft-Windows-LanguageFeatures-OCR-en-us-Package
+Microsoft-Windows-WinOcr-Opt-Package
+Microsoft-Windows-WinOcr-Package
+
+; WinSAT
+Microsoft-Windows-WinSATMediaFiles-Package
+
+## Network ##
+
+; Adobe Flash For Windows
+Adobe-Flash-For-Windows-onecoreuap-Package
+Adobe-Flash-For-Windows-Package
+
+; Internet Explorer
+Microsoft-Windows-IE-Troubleshooters-Package
+Microsoft-Windows-ImageBasedSetup-IE-Package-Base
+Microsoft-Windows-ImageBasedSetup-IE-Package-enduser
+Microsoft-Windows-ImageBasedSetup-IE-Package-windows
+Microsoft-Windows-InternetExplorer-Optional-Package
+microsoft-windows-internetexplorer-optional-package-Wrapper
+Microsoft-Windows-InternetExplorer-Package
+Microsoft-Windows-InternetExplorer-Package-onecoreuap
+Microsoft-Windows-InternetExplorer-Package-shell
+Microsoft-Windows-InternetExplorer-Package-ua
+Microsoft-Windows-Media-FlvPropHandler-Package
+
+; Offline Files
+Microsoft-Windows-OfflineFiles-merged-Package
+Microsoft-Windows-OfflineFiles-Package
+Microsoft-Windows-OfflineFiles-UI-Package
+Microsoft-Windows-OfflineFiles-WOW64-Package
+
+; OpenSSH
+Microsoft-OneCore-LibreSSL-Package
+Microsoft-OneCore-OpenSSH-ClientOnly-Package
+Microsoft-OneCore-OpenSSH-Common-Package
+openssh-client-package-Wrapper
+OpenSSH-Client-Package
+
+; Remote Differential Compression
+Microsoft-Windows-RDC-Opt-Package
+Microsoft-Windows-RDC-Package
+
+; Simple TCP/IP Services
+Microsoft-Windows-SimpleTCP-Opt-Package
+Microsoft-Windows-SimpleTCP-Package
+
+; Telnet Client
+Microsoft-Windows-Telnet-Client-Opt-Package
+Microsoft-Windows-Telnet-Client-Package
+
+; TFTP Client
+Microsoft-Windows-TFTP-Client-Opt-Package
+Microsoft-Windows-TFTP-Client-Package
+
+## Privacy ##
+
+; Assigned Access
+Microsoft-Windows-Client-AssignedAccess-base-Package
+Microsoft-Windows-Client-AssignedAccess-Package
+Microsoft-Windows-Client-AssignedAccess-pcshell-Package
+Microsoft-Windows-Client-AssignedAccess-shell-Package
+Microsoft-Windows-Client-AssignedAccess-WOW64-Package
+Microsoft-Windows-Embedded-AssignedAccessCsp-Package
+
+; Face Recognition
+Microsoft-Windows-Hello-Face-Migration-Package
+microsoft-windows-hello-face-migration-package-Wrapper
+Microsoft-Windows-Hello-Face-Package
+microsoft-windows-hello-face-package-Wrapper
+
+## Remoting ##
+
+; Multi Point Connector
+Microsoft-Windows-MultiPoint-Connector-Package
+MultiPoint-Connector-Opt-Package
+MultiPoint-Help-Package
+MultiPoint-Tools-Opt-Package
+
+; OneDrive
+Microsoft-Windows-OneDrive-Setup-Package
+Microsoft-Windows-OneDrive-Setup-WOW64-Package
+
+; Remote Assistance
+Microsoft-Windows-RemoteAssistance-Package-Client
+
+; Remote Desktop Client
+Microsoft-Windows-TerminalServices-RemoteApplications-Client-Package
+Microsoft-Windows-TerminalServices-UsbRedirector-Package
+
+; Remote Desktop Server
+Microsoft-OneCore-RemoteDesktopServices-Collaboration-Package
+Microsoft-Windows-AppServerClient-OptGroup-merged-Package
+Microsoft-Windows-AppServerClient-OptGroup-Package
+Microsoft-Windows-AppServerClient-OptGroup-WOW64-merged-Package
+Microsoft-Windows-AppServerClient-OptGroup-WOW64-Package
+Microsoft-Windows-RemoteDesktop-UserModeRDProtocol-merged-Package
+Microsoft-Windows-RemoteDesktop-UserModeRDProtocol-Package
+Microsoft-Windows-Remotefx-Clientvm-Rdvgwddmdx11-Package
+Microsoft-windows-RemoteFX-clientVM-RemoteFXWDDMDriver-WOW64-Package
+Microsoft-Windows-RemoteFX-Graphics-Virtualization-Host-Package
+Microsoft-Windows-RemoteFX-HyperV-Integration-Package
+Microsoft-Windows-RemoteFX-RemoteClient-Setup-Package
+Microsoft-Windows-RemoteFX-VM-Setup-Package
+Microsoft-Windows-RemoteFX-VM-Setup-merged-Package
+Microsoft-Windows-RemoteFX-VM-Setup-WOW64-Package
+Microsoft-Windows-TerminalServices-AppCompat-Opt-Package
+Microsoft-Windows-TerminalServices-AppCompat-Opt-WOW64-Package
+Microsoft-Windows-TerminalServices-AppServerClient-Opt-Package
+Microsoft-Windows-TerminalServices-AppServerClient-Opt-WOW64-Package
+Microsoft-Windows-TerminalServices-AppServer-Client-Package
+Microsoft-Windows-TerminalServices-AppServer-Client-WOW64-Package
+Microsoft-Windows-TerminalServices-CommandLineTools-Package
+Microsoft-Windows-TerminalServices-MiscRedirection-Package
+Microsoft-Windows-TerminalServices-Publishing-WMIProvider-Package
+Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-Package
+Microsoft-Windows-Virtualization-RemoteFX-User-Mode-Transport-WOW64-Package
+
+; Work Folders Client
+Microsoft-Windows-EnterpriseClientSync-Host-Opt-Package
+Microsoft-Windows-EnterpriseClientSync-Host-Package
+
+## System ##
+
+; Device Lockdown
+Microsoft-IoTUAP-ShellExt-Tools-Package
+Microsoft-Windows-Client-EmbeddedExp-Package
+Microsoft-Windows-Client-EmbeddedExp-WOW64-Package
+Microsoft-Windows-Client-ShellLauncher-Package
+Microsoft-Windows-Embedded-AssignedAccessCsp-Package
+Microsoft-Windows-Embedded-BootExp-Package
+Microsoft-Windows-Embedded-EmbeddedLogon-Package
+Microsoft-Windows-Embedded-KeyboardFilter-Package
+Microsoft-Windows-Embedded-KeyboardFilter-WOW64-Package
+Microsoft-Windows-Embedded-ShellLauncher-Package
+Microsoft-Windows-Embedded-UnifiedWriteFilter-base-Package
+Microsoft-Windows-Embedded-UnifiedWriteFilterCSP-base-Package
+Microsoft-Windows-Embedded-UnifiedWriteFilterCSP-onecore-Package
+Microsoft-Windows-Embedded-UnifiedWriteFilterCSP-Package
+Microsoft-Windows-Embedded-UnifiedWriteFilter-onecore-Package
+Microsoft-Windows-Embedded-UnifiedWriteFilter-Package
+Microsoft-Windows-Embedded-UnifiedWriteFilter-WOW64-Package
+
+; EasyTransfer
+Microsoft-Windows-Migration-Package
+
+; Paint
+Microsoft-Windows-MSPaint-FoD-Package
+Microsoft-Windows-MSPaint-FoD-Package-Wrapper
+
+; Projected File System (ProjFS)
+Microsoft-Windows-ProjFS-OptionalFeature-Package
+Microsoft-Windows-ProjFS-Package
+
+; Steps Recorder
+Microsoft-Windows-StepsRecorder-Package
+Microsoft-Windows-StepsRecorder-Package-Wrapper
+
+; Windows Backup
+Microsoft-Windows-Backup-Package
+Microsoft-Windows-BLB-Client-Package
+
+; Windows Firewall
+Networking-MPSSVC-Rules-EnterpriseEdition-net-Package
+Networking-MPSSVC-Rules-EnterpriseNEdition-net-Package
+Networking-MPSSVC-Rules-EnterpriseEdition-onecore-Package
+Networking-MPSSVC-Rules-EnterpriseNEdition-onecore-Package
+Networking-MPSSVC-Rules-EnterpriseEdition-Package
+Networking-MPSSVC-Rules-EnterpriseNEdition-Package
+Networking-MPSSVC-Rules-HomePremiumEdition-net-Package
+Networking-MPSSVC-Rules-HomePremiumNEdition-net-Package
+Networking-MPSSVC-Rules-HomePremiumEdition-onecore-Package
+Networking-MPSSVC-Rules-HomePremiumNEdition-onecore-Package
+Networking-MPSSVC-Rules-HomePremiumEdition-Package
+Networking-MPSSVC-Rules-HomePremiumNEdition-Package
+
+; Windows Subsystem For Linux
+Microsoft-Windows-Lxss-onecore-Package
+Microsoft-Windows-Lxss-Optional-onecore-Package
+Microsoft-Windows-Lxss-merged-Package
+Microsoft-Windows-Lxss-Optional-merged-Package
+Microsoft-Windows-Lxss-Optional-Package
+Microsoft-Windows-Lxss-Optional-WOW64-Package
+Microsoft-Windows-Lxss-Package
+Microsoft-Windows-Lxss-WithGraphics-Package
+Microsoft-Windows-Lxss-WithGraphics-WOW64-Package
+Microsoft-Windows-Lxss-WOW64-Package
+
+; Windows To Go
+Microsoft-Windows-PortableWorkspaces-Creator-Package
+
+; Wordpad
+Microsoft-Windows-WordPad-FoD-Package
+Microsoft-Windows-WordPad-FoD-Package-Wrapper
+
+## System Apps ##
+
+; AAD Broker Plugin
+Microsoft-Windows-Security-AADBrokerPlugin-Package
+
+; Accounts Control
+Microsoft-OneCore-AccountsControl-Api-Package
+
+; Bio Enrollment
+Microsoft-Windows-BioEnrollment-UX-Package
+
+; Edge Classic
+Microsoft-Windows-Internet-Browser-Package
+
+; Map Control
+Microsoft-OneCore-Maps-Core-Package
+Microsoft-OneCore-Maps-Full-merged-Package
+Microsoft-OneCore-Maps-Full-Package
+Microsoft-OneCore-Maps-merged-Package
+Microsoft-OneCore-Maps-Package
+
+; PPI Projection (Connect App)
+Microsoft-PPIProjection-Package
+
+; Quick Assist
+Microsoft-Windows-QuickAssist-Package
+Microsoft-Windows-QuickAssist-Package-Wrapper
+
+; SecureAssessmentBrowser (Take Test)
+Microsoft-Windows-Management-SecureAssessment-Package
+
+; Windows Defender
+Microsoft-OneCoreUAP-AppRuntime-RemoteAppLifetimeManager-Package
+Microsoft-Windows-HVSI-Components-Package
+Microsoft-Windows-HVSI-Components-WOW64-Package
+Microsoft-Windows-HVSI-Package
+Microsoft-Windows-HVSI-WOW64-Package
+Microsoft-Windows-SenseClient-amcore-Package
+Microsoft-Windows-SenseClient-onecore-Package
+Microsoft-Windows-SenseClient-Package
+Windows-Defender-AM-Default-Definitions-Package
+Windows-Defender-AppLayer-Group-Package
+Windows-Defender-ApplicationGuard-Inbox-Package
+Windows-Defender-ApplicationGuard-Inbox-WOW64-Package
+Windows-Defender-Client-Package
+Windows-Defender-Core-Group-amcore-Package
+Windows-Defender-Core-Group-onecore-Package
+Windows-Defender-Core-Group-Package
+Windows-Defender-Group-Policy-Package
+Windows-Defender-Management-Group-amcore-Package
+Windows-Defender-Management-Group-onecore-Package
+Windows-Defender-Management-Group-Package
+Windows-Defender-Management-MDM-Group-Package
+Windows-Defender-Management-Powershell-Group-Package
+Windows-Defender-Nis-Group-Package
+
+; Windows Mixed Reality
+Microsoft-Composable-PlatformExtension-DragDropCommon-Package
+Microsoft-Composable-PlatformExtension-DragDropCommon-WOW64-Package
+Microsoft-Windows-Holographic-Desktop-Analog-Package
+Microsoft-Windows-Holographic-Desktop-Analog-WOW64-Package
+Microsoft-Windows-Holographic-Desktop-Merged-analog-Package
+Microsoft-Windows-Holographic-Desktop-Merged-onecoreuap-Package
+Microsoft-Windows-Holographic-Desktop-Merged-Package
+Microsoft-Windows-Holographic-Desktop-Merged-pcshell-Package
+Microsoft-Windows-Holographic-Desktop-Merged-WOW64-analog-Package
+Microsoft-Windows-Holographic-Desktop-Merged-WOW64-Package
+Microsoft-Windows-Holographic-Desktop-Merged-merged-Package
+Microsoft-Windows-Holographic-Desktop-Merged-WOW64-merged-Package
+
+; Windows Store Client
+Microsoft-OneCore-UniversalStore-Package
+
+; Xbox Client
+Microsoft-OneCore-Gaming-Preview-GamesEnumeration-Package
+Microsoft-OneCore-Gaming-UI-Package
+Microsoft-OneCore-Networking-XboxLive-Package

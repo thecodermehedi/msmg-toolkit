@@ -1,0 +1,740 @@
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>BaseDismObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.BaseDismObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>LogPath</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>ImageObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.ImageObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>Path</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Online</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Restart Needed</Label>
+                <ScriptBlock>return $_.RestartNeeded</ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>ImageObjectWithStateList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.ImageObjectWithState</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>Path</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Online</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Image Health State</Label>
+                <ScriptBlock>return $_.ImageHealthState</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Restart Needed</Label>
+                <ScriptBlock>return $_.RestartNeeded</ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+    <Name>EditionObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.EditionObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>Edition</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>MountedImageInfoObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.MountedImageInfoObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Mount Dir</Label>
+                <ScriptBlock> return $_.Path</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Image File</Label>
+                <ScriptBlock> return $_.ImagePath</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Image Index</Label>
+                <ScriptBlock> return $_.ImageIndex</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Mount mode</Label>
+                <ScriptBlock> return $_.MountMode</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Status</Label>
+                <ScriptBlock> return $_.MountStatus</ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>AppxPackageObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.AppxPackageObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>DisplayName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Version</PropertyName>
+              </ListItem>
+              <ListItem>
+                  <Label>Architecture</Label>
+                  <ScriptBlock>
+                    $a = "Unknown"
+                    if($_.Architecture -eq 0){ $a="x86" }
+                    elseif($_.Architecture -eq 5) {$a="arm"}
+                    elseif($_.Architecture -eq 9) {$a="x64"}
+                    elseif($_.Architecture -eq 6) {$a="ia64"}
+                    elseif($_.Architecture -eq 11) {$a="neutral"}
+                    return $a
+                  </ScriptBlock>
+                </ListItem>
+              <ListItem>
+                <PropertyName>ResourceId</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>PackageName</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>BasicImageInfoObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.BasicImageInfoObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Index</Label>
+                <ScriptBlock> return $_.ImageIndex </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Name</Label>
+                <ScriptBlock> return $_.ImageName </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Description</Label>
+                <ScriptBlock> return $_.ImageDescription </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Size</Label>
+                <ScriptBlock> return $_.ImageSize.ToString("N0", [System.Threading.Thread]::CurrentThread.CurrentCulture) + " bytes" </ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>ImageInfoObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.ImageInfoObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Index</Label>
+                <ScriptBlock> return $_.ImageIndex </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Name</Label>
+                <ScriptBlock> return $_.ImageName </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Description</Label>
+                <ScriptBlock> return $_.ImageDescription </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Size</Label>
+                <ScriptBlock> return $_.ImageSize.ToString("N0", [System.Threading.Thread]::CurrentThread.CurrentCulture) + " bytes" </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Architecture</Label>
+                <ScriptBlock>
+                $a = "Unknown"
+                if($_.Architecture -eq 0){ $a="x86" }
+                elseif($_.Architecture -eq 5) {$a="arm"}
+                elseif($_.Architecture -eq 9) {$a="x64"}
+                elseif($_.Architecture -eq 6) {$a="ia64"}
+                return $a
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Hal</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Version</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ServicePack Build</Label>
+                <ScriptBlock> return $_.SPBuild </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>ServicePack Level</Label>
+                <ScriptBlock> return $_.SPLevel </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Edition</Label>
+                <ScriptBlock> return $_.EditionId</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Installation</Label>
+                <ScriptBlock> return $_.InstallationType</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>ProductType</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>ProductSuite</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>System Root</Label>
+                <ScriptBlock> return $_.SystemRoot</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Languages</Label>
+                <ScriptBlock>
+                $out = ""
+                $i=0
+                foreach($a in $_.Languages) {
+                $out = $out + $a 
+                if($i -eq $_.DefaultLanguageIndex) { $out=$out+" (Default)"}
+                if($i -lt ($_.Languages.count-1)) {$out=$out+"`r`n"}
+                $i=$i+1 
+                } 
+                return $out;
+                </ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>WimImageInfoObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.WimImageInfoObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Index</Label>
+                <ScriptBlock> return $_.ImageIndex </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Name</Label>
+                <ScriptBlock> return $_.ImageName </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Description</Label>
+                <ScriptBlock> return $_.ImageDescription </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Size</Label>
+                <ScriptBlock> return $_.ImageSize.ToString("N0", [System.Threading.Thread]::CurrentThread.CurrentCulture) + " bytes" </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>WIM Bootable</Label>
+                <ScriptBlock> return $_.WIMBoot </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Architecture</Label>
+                <ScriptBlock>
+                  $a = "Unknown"
+                  if($_.Architecture -eq 0){ $a="x86" }
+                  elseif($_.Architecture -eq 5) {$a="arm"}
+                  elseif($_.Architecture -eq 9) {$a="x64"}
+                  elseif($_.Architecture -eq 6) {$a="ia64"}
+                  return $a
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Hal</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Version</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ServicePack Build</Label>
+                <ScriptBlock> return $_.SPBuild </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>ServicePack Level</Label>
+                <ScriptBlock> return $_.SPLevel </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Edition</Label>
+                <ScriptBlock> return $_.EditionId</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Installation</Label>
+                <ScriptBlock> return $_.InstallationType</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>ProductType</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>ProductSuite</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>System Root</Label>
+                <ScriptBlock> return $_.SystemRoot</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Directories</Label>
+                <ScriptBlock> return $_.DirectoryCount </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Files</Label>
+                <ScriptBlock> return $_.FileCount </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Created</Label>
+                <ScriptBlock> return $_.CreatedTime </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Modified</Label>
+                <ScriptBlock> return $_.ModifiedTime </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Languages</Label>
+                <ScriptBlock>
+                  $out = ""
+                  $i=0
+                  foreach($a in $_.Languages) {
+                  $out = $out + $a
+                  if($i -eq $_.DefaultLanguageIndex) { $out=$out+" (Default)"}
+                  if($i -lt ($_.Languages.count-1)) {$out=$out+"`r`n"}
+                  $i=$i+1
+                  }
+                  return $out;
+                </ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>BasicFeatureObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.BasicFeatureObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Feature Name</Label>
+                <ScriptBlock>return $_.FeatureName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>State</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>AdvancedFeatureObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.AdvancedFeatureObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Feature Name</Label>
+                <ScriptBlock>return $_.FeatureName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Display Name</Label>
+                <ScriptBlock>return $_.DisplayName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Description</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Restart Required</Label>
+                <ScriptBlock>return $_.RestartRequired</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>State</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Custom Properties</Label>
+                <ScriptBlock>
+                  $a = "`r`n"
+                  $_.CustomProperties | foreach { $a = $a + $_.Path + "\" + $_.Name + " : " + $_.Value + "`r`n" }
+                  return $a
+                </ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>BasicPackageObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.BasicPackageObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Package Identity</Label>
+                <ScriptBlock>return $_.PackageName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>State</Label>
+                <ScriptBlock>return $_.PackageState</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Release Type</Label>
+                <ScriptBlock>return $_.ReleaseType</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Install Time</Label>
+                <ScriptBlock>
+                  if ([System.DateTime]::Equals($_.InstallTime,[System.DateTime]::MinValue)) { return "" } else { return $_.InstallTime }
+                </ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>AdvancedPackageObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.AdvancedPackageObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Package Identity</Label>
+                <ScriptBlock>return $_.PackageName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Applicable</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Copyright</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Company</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Creation Time</Label>
+                <ScriptBlock>
+                  if ([System.DateTime]::Equals($_.CreationTime,[System.DateTime]::MinValue)) { return "" } else { return $_.CreationTime }
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Description</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Install Client</Label>
+                <ScriptBlock>return $_.InstallClient</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Install Package Name</Label>
+                <ScriptBlock>return $_.InstallPackageName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Install Time</Label>
+                <ScriptBlock>
+                  if ([System.DateTime]::Equals($_.InstallTime,[System.DateTime]::MinValue)) { return "" } else { return $_.InstallTime }
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Last Update Time</Label>
+                <ScriptBlock>
+                  if ([System.DateTime]::Equals($_.LastUpdateTime,[System.DateTime]::MinValue)) { return "" } else { return $_.LastUpdateTime }
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Name</Label>
+                <ScriptBlock>return $_.DisplayName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Product Name</Label>
+                <ScriptBlock>return $_.ProductName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Product Version</Label>
+                <ScriptBlock>return $_.ProductVersion</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Release Type</Label>
+                <ScriptBlock>return $_.ReleaseType</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Restart Required</Label>
+                <ScriptBlock>return $_.RestartRequired</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Support Information</Label>
+                <ScriptBlock>return $_.SupportInformation</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>State</Label>
+                <ScriptBlock>return $_.PackageState</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Completely Offline Capable</Label>
+                <ScriptBlock>return $_.CompletelyOfflineCapable</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Custom Properties</Label>
+                <ScriptBlock>
+                  $a = "`r`n"
+                  $_.CustomProperties | foreach { $a = $a + $_.Path + "\" + $_.Name + " : " + $_.Value + "`r`n" }
+                  return $a
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Features</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>BasicDriverObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.BasicDriverObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Published Name</Label>
+                <ScriptBlock>return $_.Driver</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Original File Name</Label>
+                <ScriptBlock>return $_.OriginalFileName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>InBox</Label>
+                <ScriptBlock>
+                  return $_.Inbox
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Class Name</Label>
+                <ScriptBlock>return $_.ClassName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Boot Critical</Label>
+                <ScriptBlock>return $_.BootCritical</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Provider Name</Label>
+                <ScriptBlock>return $_.ProviderName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Date</Label>
+                <ScriptBlock>
+                  if ([System.DateTime]::Equals($_.Date,[System.DateTime]::MinValue)) { return "" } else { return $_.Date }
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Version</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>AdvancedDriverObjectList</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Dism.Commands.AdvancedDriverObject</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Published Name</Label>
+                <ScriptBlock>return $_.Driver</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Driver Store Path</Label>
+                <ScriptBlock>return $_.OriginalFileName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>InBox</Label>
+                <ScriptBlock>
+                  return $_.Inbox
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Class Name</Label>
+                <ScriptBlock>return $_.ClassName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Class Description</Label>
+                <ScriptBlock>return $_.ClassDescription</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Class GUID</Label>
+                <ScriptBlock>return $_.ClassGuid</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Boot Critical</Label>
+                <ScriptBlock>return $_.BootCritical</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>ProviderName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Date</Label>
+                <ScriptBlock>
+                  if ([System.DateTime]::Equals($_.Date,[System.DateTime]::MinValue)) { return "" } else { return $_.Date }
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <PropertyName>Version</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Manufacturer</Label>
+                <ScriptBlock>return $_.ManufacturerName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Description</Label>
+                <ScriptBlock>return $_.HardwareDescription</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Architecture</Label>
+                <ScriptBlock>
+                    $a = "Unknown"
+                    if($_.Architecture -eq 0){ $a="x86" }
+                    elseif($_.Architecture -eq 5) {$a="arm"}
+                    elseif($_.Architecture -eq 9) {$a="x64"}
+                    elseif($_.Architecture -eq 6) {$a="ia64"}                  
+                    return $a
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Hardware ID</Label>
+                <ScriptBlock>return $_.HardwareId</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Service Name</Label>
+                <ScriptBlock>return $_.ServiceName</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Compatible IDs</Label>
+                <ScriptBlock>return $_.CompatibleIds</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Exclude IDs</Label>
+                <ScriptBlock>return $_.ExcludeIds</ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+      <View>
+          <Name>WimBootEntryObjectList</Name>
+          <ViewSelectedBy>
+              <TypeName>Microsoft.Dism.Commands.WimBootEntryObject</TypeName>
+          </ViewSelectedBy>
+          <ListControl>
+              <ListEntries>
+                  <ListEntry>
+                      <ListItems>
+                          <ListItem>
+                              <Label>Data Source ID</Label>
+                              <ScriptBlock> return $_.DataSourceID</ScriptBlock>
+                          </ListItem>
+                          <ListItem>
+                              <Label>Image File</Label>
+                              <ScriptBlock> return $_.ImageFile</ScriptBlock>
+                          </ListItem>
+                      </ListItems>
+                  </ListEntry>
+              </ListEntries>
+          </ListControl>
+      </View>
+  </ViewDefinitions>
+</Configuration>

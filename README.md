@@ -1,52 +1,102 @@
 <p align="center">
   <a href="https://msmgtoolkit.in" target="_blank">
-  <img src="https://user-images.githubusercontent.com/89072438/168812773-7dc24fec-deb5-4105-ad19-4d00b9825adf.png" alt="MSMG Toolkit Logo">
-</a>
+    <img src="https://user-images.githubusercontent.com/89072438/168812773-7dc24fec-deb5-4105-ad19-4d00b9825adf.png" alt="msmg-toolkit-logo">
+  </a>
 </p>
+
 <h1 align="center">
-<a href="https://msmgtoolkit.in" target="_blank">
-MSMG Toolkit
-</a>
+  <a href="https://msmgtoolkit.in" target="_blank">
+    MSMG Toolkit
+  </a>
 </h1>
 
-<h4 align="center">This is an <b> unofficial </b> repo for msmg toolkit i created for backup purposes.</h4>
-<h4 align="center"><a href="https://msmgtoolkit.in/downloads.html"target="_blank">Official Download Page</a></h4>
-<h4 align="center"><a href="https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/"target="_blank">Opendirectory.luzea.de</a></h4>
-<h4 align="center"><a href="https://download.ru/folders/BiHp44Yh"target="_blank">Download.ru</a></h4>
-<hr>
-<h4 align="center"><a href="https://download.ru/folders/xnIjBhOt"target="_blank">MSMG Toolkit Packs</a></h4>
-MSMG ToolKit creates a slimmed down or bloat-free Windows by customizing, adding, or removing features and components and enabling or disabling features to Microsoft Windows 7, 8, 10, and 11.
+>This is an **unofficial** backup repository for MSMG Toolkit.
 
-Everything is done through a DOS command prompt, but typing in letters to get where you want, meaning no complicated DOS commands or DOS knowledge is needed. We have always loved the entire goal at MajorGeeks, creating a lightweight, bloat-free Windows version. Expect to spend a small amount of time getting everything you want the way you want. You can also restore most things you remove, should you change your mind later.
+<details>
+  <summary>What is MSMG Toolkit ?</summary>
+<br>
 
-# System Requirements:
+  **MSMG Toolkit** is a tool that helps users customize and optimize Microsoft Windows installations.
+
+  It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs
+
+  This tool is particularly useful for creating custom, bloat-free Windows installations.
+</details>
+
+## Precautions
+
+- MSMG Toolkit is not supported by Microsoft and is a third-party tool, so use at your own risk.
+- MSMG Toolkit can alter Windows significantly, so understand the risks before use, especially if unfamiliar with Windows OS and components.
+- Use MSMG Toolkit only on a clean Windows installation. Modifying a customized system may cause unexpected results.
+- Experienced users should use MSMG Toolkit with caution, knowing the risks. Backup your system before making significant changes to your Windows installation.
+
+<details>
+<summary><h2>System Requirements</h2></summary>
+
 - Windows 7 with SP1 / Windows 8.1 / Windows 10 / Windows 11 / Server 2008 R2 / Server 2012 R2 / Server 2016 / Server 2019 / Server 2022 LTSC Installation Disc DVD/ISO.
+
 - Windows 7 with SP1 / Windows 8.1 / Windows 10 / Windows 11 Host Operating System for Servicing Windows 7 / Windows 8.1 source images.
+
 - Windows 8.1 / Windows 10 / Windows 11 Host Operating System for Servicing Windows 7 / 8.1 / 10 / 11 source images.
+
 - The ToolkitHelper.exe requires Microsoft .NET Framework 4.8.
-# General Usage:
-- Download the Toolkit archive and Toolkit's Pack files.
-- Unblock the downloaded Toolkit archive file by righting clicking on the archive file and choose properties and then click on Unblock button.
-- Extract the Toolkit archive to a folder with shorter folder path e.g: C:\Toolkit
-- Extract/Copy the Windows Source ISO/DVD Image/Disc contents to Toolkit's <DVD> folder.
-- Double Click on Start.cmd and Choose Yes to Run as Administrator.
-- Click on Toolkit's Command Window Control Box and Choose Properties.
-- If using Windows 7/Windows 8.1 HOST OS then Go To Font Tab and Set the Font to Consolas and Font Size to 16.
-- Go to Layout Tab and Increase the Height to 1000 in Screen Buffer Size Group Box.
-- Agree to Toolkit's EULA by pressing 'A' Key.
-- Press Enter Key to Continue.
-- Integrate all the features you want to add except the .NET Framework 3.5 using the Integrate Feature Menu.
-- Integrate the Language pack you want if required.
-- Integrate the Updates.
-- Remove the Apps you don't want.
-- Remove the Components you don't want.
-- Apply Changes; this will perform the Cleanup
-- Re-Mount the Source
-- Add the .NET Framework 3.5 using the Integrate Feature Menu.
-- Apply Changes.
-- Re-Build the Image.
-  
-# Here is a list of the many things MSMG ToolKit can do:
+
+</details>
+
+# Installation
+
+**Clone this repository to your computer:**
+
+```bash
+git clone https://github.com/iammrmehedi/MSMG-Toolkit.git
+```
+
+**Or Download the Toolkit:**
+[https://download.ru/folders/BiHp44Yh](https://download.ru/folders/BiHp44Yh)
+
+- Official Download Page [https://msmgtoolkit.in/downloads.html](https://msmgtoolkit.in/downloads.html)
+- Mirror Download Page [https://opendirectory.luzea.de/](https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/)
+
+**Browse the Toolkit Packs:**
+[https://download.ru/folders/xnIjBhOt](https://download.ru/folders/xnIjBhOt)
+
+## Features
+
+- **Localization Packs Integration**
+
+  - Integrate Windows/WinPE Language Packs, Language Features Packs and Localize your Windows Installation.
+
+- **Drivers Integration**
+
+  - Integrate device drivers into the Windows Installation image and Windows Installation Boot image (Boot.wim).
+
+  - Import and integrate Host PC drivers into the Windows Installation image.
+
+- **Feature Packs Integration**
+
+  - Integrate Windows Feature Packs, Feature on Demand (FOD's) Packs, Inbox Apps, Add-on Packs.
+
+- **Updates Integration**
+
+  - Integrate Windows updates and service packs.
+
+- **Component Removal**
+
+  - Reduce Windows footprint by removing unwanted components of your choice and simplify your installation time and free up drive space.
+
+- **Customization**
+
+  - Customize Windows look and feel with custom cursors, themes and skin packs.
+
+- **Deploy Windows Image**
+
+  - Deploy Windows installation image either in .WIM/.ESD format through USB/DVD media.
+
+<details>
+  <summary>
+    <h3>List of things this toolkit can do</h3>
+  </summary>
+
 - Copy Source DVD Files from DVD Drive
 - Extract Source DVD Files from ISO Image
 - Extract Source DVD Files from OEM/IMG Image
@@ -99,8 +149,53 @@ Everything is done through a DOS command prompt, but typing in letters to get wh
 - Format a USB Flash Drive
 - WIM Manager to Display, Delete, Rename, Export, Split and Merge, Capture, Apply, and Cleanup WIM Image Indexes
 - Load/Unload WIM Image Registry for Modification
-  
-# Known Issues:
+
+</details>
+
+## Usage
+
+- Download the Toolkit archive (e.g: `Toolkit_v13.3.7z`) and Toolkit's Pack files.
+
+- Unblock the downloaded Toolkit archive file by righting clicking on the archive file and choose `properties` and then click on `Unblock` button.
+
+- Extract the Toolkit archive to a folder with shorter folder path (e.g: `C:\Toolkit`)
+
+- Extract/Copy the Windows Source ISO/DVD Image/Disc contents to Toolkit's `<DVD>` folder.
+
+- Double Click on `Start.cmd` and Choose Yes to `Run as Administrator`.
+
+- Click on Toolkit's Command Window Control Box and Choose Properties.
+
+- If using `Windows 7/Windows 8.1` HOST OS then Go To Font Tab and Set the Font to `Consolas` and Font Size to `16`.
+
+- Go to Layout Tab and Increase the Height to 1000 in Screen Buffer Size Group Box.
+- Agree to Toolkit's `EULA` by pressing 'A' Key
+.
+- Press `Enter` Key to Continue.
+
+- Integrate all the features you want to add except the `.NET Framework 3.5` using the Integrate Feature Menu.
+
+- Integrate the `Language pack` you want if required.
+
+- Integrate the `Updates`.
+
+- Remove the `Apps` you don't want.
+
+- Remove the `Components` you don't want.
+
+- Apply Changes; this will perform the `Cleanup`
+
+- Re-Mount the Source
+
+- Add the `.NET Framework 3.5` using the Integrate Feature Menu
+.
+- Apply Changes.
+
+- Re-Build the Image.
+
+<details>
+<summary><h3>Known Issues</h3></summary>
+
 - Using Toolkit with Antivirus Programs enabled can affect the Toolkit's operations.
 - Toolkit's ToolkitHelper.exe may be flagged as a Virus/Trojan/Malware Program, don't worry it's just a false positive sign.
 - The Toolkit won't support source images pre-serviced with other similar tools.
@@ -115,3 +210,17 @@ Everything is done through a DOS command prompt, but typing in letters to get wh
 - Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Removing Internet Explorer breaks DirectX 9.0c web installer and Photoshop CC web installer.
 - Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Removing Map Control breaks Photos App image information.
 - Windows 10 v1703/v1709/v1803/v1809/v1903/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Custom User Account Picture integration is not working in Logon Screen although it's been displayed in Start Menu user icon.
+
+</details>
+
+
+### Similar or Related Tools
+
+- [NTLite](https://www.ntlite.com/)
+- [Tiny11Builder](https://github.com/ntdevlabs/tiny11builder)
+- [WinUtil](https://github.com/ChrisTitusTech/winutil)
+- [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+
+### Copyright
+
+I hereby declare that I am not affiliated with the toolkit or its creator in any manner. Furthermore, I explicitly state that I bear no responsibility for the usage of this toolkit. The copyright for the toolkit remains the sole property of its original owner.

@@ -1,6 +1,6 @@
 ![MSMG-Toolkit](https://socialify.git.ci/iammrmehedi/MSMG-Toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)
 
-**[MSMG Toolkit](https://github.com/iammrmehedi/MSMG-Toolkit)** is a tool that helps users customize and optimize Microsoft Windows installations.
+**[MSMG Toolkit](https://msmgtoolkit.in/)** is a tool that helps users customize and optimize Microsoft Windows installations.
 It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
 
 ## Precautions

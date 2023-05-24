@@ -1,27 +1,7 @@
-<p align="center">
-  <a href="https://msmgtoolkit.in" target="_blank">
-    <img src="https://user-images.githubusercontent.com/89072438/168812773-7dc24fec-deb5-4105-ad19-4d00b9825adf.png" alt="msmg-toolkit-logo">
-  </a>
-</p>
+![MSMG-Toolkit](https://socialify.git.ci/iammrmehedi/MSMG-Toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)
 
-<h1 align="center">
-  <a href="https://msmgtoolkit.in" target="_blank">
-    MSMG Toolkit
-  </a>
-</h1>
-
->This is an **unofficial** backup repository for MSMG Toolkit.
-
-<details>
-  <summary>What is MSMG Toolkit ?</summary>
-<br>
-
-  **MSMG Toolkit** is a tool that helps users customize and optimize Microsoft Windows installations.
-
-  It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs
-
-  This tool is particularly useful for creating custom, bloat-free Windows installations.
-</details>
+**MSMG Toolkit** is a tool that helps users customize and optimize Microsoft Windows installations.
+It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
 
 ## Precautions
 
@@ -212,7 +192,6 @@ git clone https://github.com/iammrmehedi/MSMG-Toolkit.git
 - Windows 10 v1703/v1709/v1803/v1809/v1903/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Custom User Account Picture integration is not working in Logon Screen although it's been displayed in Start Menu user icon.
 
 </details>
-
 
 ### Similar or Related Tools
 

@@ -25,7 +25,7 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 # Installation
 
-**Download from this repo:** [Toolkit_v13.3.7z](https://github.com/devbytemehedi/msmg-toolkit/raw/main/Toolkit_v13.3.7z)
+**Download from this repo:** <a href="./Toolkit_v13.3.7z" download> Toolkit_v13.3.7z </a>
 
 **Or Download the Toolkit:**
 [https://download.ru/folders/BiHp44Yh](https://download.ru/folders/BiHp44Yh)

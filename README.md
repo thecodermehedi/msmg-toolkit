@@ -43,7 +43,7 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 # Installation
 
- 👉 **Download the latest version:** <a href="./Toolkit_v13.4.7z" download> Toolkit_v13.4.7z </a>
+ 👉 **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.4.7z" download> Toolkit_v13.4.7z </a>
 
 <details>
 

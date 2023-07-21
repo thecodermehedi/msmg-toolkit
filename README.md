@@ -43,16 +43,25 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 # Installation
 
-**Download the latest version:** <a href="./Toolkit_v13.4.7z" download> Toolkit_v13.3.7z </a>
+ 👉 **Download the latest version:** <a href="./Toolkit_v13.4.7z" download> Toolkit_v13.4.7z </a>
 
-**Or Download the Toolkit:**
-[https://download.ru/folders/BiHp44Yh](https://download.ru/folders/BiHp44Yh)
+<details>
 
-- Official Download Page [https://msmgtoolkit.in/downloads.html](https://msmgtoolkit.in/downloads.html)
-- Mirror Download Page [https://opendirectory.luzea.de/](https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/)
+<summary>See More 👇</summary>
+<br>
 
-**Browse the Toolkit Packs:**
-[https://download.ru/folders/xnIjBhOt](https://download.ru/folders/xnIjBhOt)
+👉 **Toolkit Archive:**
+[download.ru/archives](https://download.ru/folders/BiHp44Yh)
+
+👉 **Official Download Page** [msmgtoolkit.in/downloads](https://msmgtoolkit.in/downloads.html)
+
+👉 **Mirror Download Page** [https://opendirectory.luzea.de/](https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/)
+
+👉 **Browse the Toolkit Packs:**
+[download.ru/packs](https://download.ru/folders/xnIjBhOt)
+
+</details>
+
 
 ## Features
 

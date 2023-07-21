@@ -4,7 +4,7 @@
 </a>
 </div>
 
-<p align="center" style="font-size: 2.5rem; font-weight: bold;">MSMG Toolkit</p>
+<h1 align="center">MSMG Toolkit</h1>
 <div align="center">This is an <strong>UnOfficial</strong> backup repository for <strong>MSMG Toolkit</strong>.</div>
 
 <br>

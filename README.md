@@ -1,6 +1,24 @@
-[![MSMG-Toolkit](https://socialify.git.ci/devbytemehedi/msmg-toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)](https://github.com/devbytemehedi/msmg-toolkit)
+<div align="center">
+  <a href="https://msmgtoolkit.in" target="_blank">
+  <img src="https://user-images.githubusercontent.com/89072438/168812773-7dc24fec-deb5-4105-ad19-4d00b9825adf.png" alt="MSMG Toolkit Logo">
+</a>
+</div>
 
-**[MSMG Toolkit](https://msmgtoolkit.in/)** is a tool that helps users customize and optimize Microsoft Windows installations.
+<p align="center" style="font-size: 2.5rem; font-weight: bold;">MSMG Toolkit</p>
+<div align="center">This is an <strong>UnOfficial</strong> backup repository for <strong>MSMG Toolkit</strong>.</div>
+
+<br>
+<div align="center">
+
+[![GitHub repo stars](https://img.shields.io/github/stars/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/devbytemehedi/msmg-toolkit/stargazers)&#160;
+[![GitHub repo forks](https://img.shields.io/github/forks/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/devbytemehedi/msmg-toolkit/network)&#160;
+[![GitHub repo watchers](https://img.shields.io/github/watchers/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/devbytemehedi/msmg-toolkit/watchers)&#160;
+[![GitHub repo size](https://img.shields.io/github/repo-size/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/devbytemehedi/msmg-toolkit/archive/refs/heads/main.zip)
+</div>
+
+<!-- [![MSMG-Toolkit](https://socialify.git.ci/devbytemehedi/msmg-toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)](https://github.com/devbytemehedi/msmg-toolkit) -->
+
+**[MSMG Toolkit](https://msmgtoolkit.in/)** is a tool that helps users customize and optimize Microsoft Windows installations.<br>
 It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
 
 ## Precautions
@@ -25,7 +43,7 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 # Installation
 
-**Download from this repo:** <a href="./Toolkit_v13.3.7z" download> Toolkit_v13.3.7z </a>
+**Download the latest version:** <a href="./Toolkit_v13.4.7z" download> Toolkit_v13.3.7z </a>
 
 **Or Download the Toolkit:**
 [https://download.ru/folders/BiHp44Yh](https://download.ru/folders/BiHp44Yh)

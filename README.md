@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <a href="https://msmgtoolkit.in" target="_blank">
   <img src="https://user-images.githubusercontent.com/89072438/168812773-7dc24fec-deb5-4105-ad19-4d00b9825adf.png" alt="MSMG Toolkit Logo">
 </a>
@@ -7,7 +7,12 @@
 <h1 align="center">MSMG Toolkit</h1>
 <div align="center">This is an <strong>UnOfficial</strong> backup repository for <strong>MSMG Toolkit</strong>.</div>
 
-<br>
+<br> -->
+
+<!-- [![MSMG-Toolkit](https://socialify.git.ci/devbytemehedi/msmg-toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)](https://github.com/devbytemehedi/msmg-toolkit) -->
+
+![msmg-toolkit](./msmg-toolkit-cover.png)
+
 <div align="center">
 
 [![GitHub repo stars](https://img.shields.io/github/stars/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/devbytemehedi/msmg-toolkit/stargazers)&#160;
@@ -16,20 +21,18 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/devbytemehedi/msmg-toolkit/archive/refs/heads/main.zip)
 </div>
 
-<!-- [![MSMG-Toolkit](https://socialify.git.ci/devbytemehedi/msmg-toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)](https://github.com/devbytemehedi/msmg-toolkit) -->
 
-**[MSMG Toolkit](https://msmgtoolkit.in/)** is a tool that helps users customize and optimize Microsoft Windows installations.<br>
+**MSMG Toolkit** is a tool that helps users customize and optimize Microsoft Windows installations.<br>
 It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
 
-## Precautions
+## 👉 Precautions
 
 - MSMG Toolkit is not supported by Microsoft and is a third-party tool, so use at your own risk.
 - MSMG Toolkit can alter Windows significantly, so understand the risks before use, especially if unfamiliar with Windows OS and components.
 - Use MSMG Toolkit only on a clean Windows installation. Modifying a customized system may cause unexpected results.
 - Experienced users should use MSMG Toolkit with caution, knowing the risks. Backup your system before making significant changes to your Windows installation.
 
-<details>
-<summary><h2>System Requirements</h2></summary>
+## 👉 System Requirements
 
 - Windows 7 with SP1 / Windows 8.1 / Windows 10 / Windows 11 / Server 2008 R2 / Server 2012 R2 / Server 2016 / Server 2019 / Server 2022 LTSC Installation Disc DVD/ISO.
 
@@ -39,31 +42,28 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 - The ToolkitHelper.exe requires Microsoft .NET Framework 4.8.
 
-</details>
+## 👉 Installation
 
-# Installation
+ ⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.4.7z" download> Toolkit_v13.4.7z </a>
 
- 👉 **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.4.7z" download> Toolkit_v13.4.7z </a>
-
-<details>
-
-<summary>See More 👇</summary>
-<br>
-
-👉 **Toolkit Archive:**
+⬇️ **Toolkit Archive:**
 [download.ru/archives](https://download.ru/folders/BiHp44Yh)
 
-👉 **Official Download Page** [msmgtoolkit.in/downloads](https://msmgtoolkit.in/downloads.html)
-
-👉 **Mirror Download Page** [https://opendirectory.luzea.de/](https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/)
-
-👉 **Browse the Toolkit Packs:**
+⬇️ **Toolkit Packs:**
 [download.ru/packs](https://download.ru/folders/xnIjBhOt)
+
+<details>
+<summary>👈 See More</summary>
+<br>
+
+⬇️ **Official Download Page :** [msmgtoolkit/download](https://msmgtoolkit.in/downloads.html)
+
+⬇️ **Mirror Download Page :** [opendirectory.luzea.de](https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/)
 
 </details>
 
 
-## Features
+## 👉 Features
 
 - **Localization Packs Integration**
 
@@ -97,7 +97,7 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 <details>
   <summary>
-    <h3>List of things this toolkit can do</h3>
+    <h3>👈 List of things this Toolkit can do</h3>
   </summary>
 
 - Copy Source DVD Files from DVD Drive
@@ -155,7 +155,7 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 </details>
 
-## Usage
+## 👉 Usage
 
 - Download the Toolkit archive (e.g: `Toolkit_v13.3.7z`) and Toolkit's Pack files.
 
@@ -197,7 +197,7 @@ It is a useful tool for those who want to create a custom Windows installation d
 - Re-Build the Image.
 
 <details>
-<summary><h3>Known Issues</h3></summary>
+<summary><h3>👈 Known Issues</h3></summary>
 
 - Using Toolkit with Antivirus Programs enabled can affect the Toolkit's operations.
 - Toolkit's ToolkitHelper.exe may be flagged as a Virus/Trojan/Malware Program, don't worry it's just a false positive sign.
@@ -216,13 +216,13 @@ It is a useful tool for those who want to create a custom Windows installation d
 
 </details>
 
-### Similar or Related Tools
+### 👉  Similar or Related Tools
 
 - [NTLite](https://www.ntlite.com/)
 - [Tiny11Builder](https://github.com/ntdevlabs/tiny11builder)
 - [WinUtil](https://github.com/ChrisTitusTech/winutil)
 - [Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 
-### Copyright
+### 👉 Copyright
 
 I hereby declare that I am not affiliated with the toolkit or its creator in any manner. Furthermore, I explicitly state that I bear no responsibility for the usage of this toolkit. The copyright for the toolkit remains the sole property of its original owner.

@@ -1,17 +1,19 @@
-<!-- <div align="center">
+<div align="center">
   <a href="https://msmgtoolkit.in" target="_blank">
   <img src="https://user-images.githubusercontent.com/89072438/168812773-7dc24fec-deb5-4105-ad19-4d00b9825adf.png" alt="MSMG Toolkit Logo">
 </a>
 </div>
 
 <h1 align="center">MSMG Toolkit</h1>
-<div align="center">This is an <strong>UnOfficial</strong> backup repository for <strong>MSMG Toolkit</strong>.</div>
+<div align="center">This is an <strong>UnOfficial</strong> backup repository for <strong>MSMG Toolkit</strong>.
 
-<br> -->
+</div>
+
+<br>
 
 <!-- [![MSMG-Toolkit](https://socialify.git.ci/devbytemehedi/msmg-toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)](https://github.com/devbytemehedi/msmg-toolkit) -->
 
-![msmg-toolkit](./msmg-toolkit-cover.png)
+<!-- ![msmg-toolkit](./msmg-toolkit-cover.png) -->
 
 <div align="center">
 
@@ -21,9 +23,20 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/devbytemehedi/msmg-toolkit/archive/refs/heads/main.zip)
 </div>
 
+<div align="center">
 
-**MSMG Toolkit** is a tool that helps users customize and optimize Microsoft Windows installations.<br>
-It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
+[![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/devbytemehedi/msmg-toolkit-a-tool-for-customizing-and-optimizing-windows-installations-1g7b) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@devbytemehedi/msmg-toolkit-a-tool-for-customizing-and-optimizing-windows-installations-c7816a2029cf)
+
+</div>
+
+<details>
+<summary>
+MSMG Toolkit is a tool that helps users customize and optimize Microsoft Windows installations. It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
+</summary>
+
+![](./msmg-toolkit-cover.png)
+
+ </details>
 
 ## 👉 Precautions
 

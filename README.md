@@ -47,7 +47,7 @@
 
 - Windows 8.1 / Windows 10 / Windows 11 Host Operating System for Servicing Windows 7 / 8.1 / 10 / 11 source images.
 
-- The ToolkitHelper.exe requires Microsoft .NET Framework 4.8.
+- The ToolkitHelper.exe requires Microsoft .NET Framework 4.8 or 4.9 runtime pack.
 
 ## 👉 Installation
 
@@ -204,21 +204,30 @@
 
 <details>
 <summary><h3>👈 Known Issues</h3></summary>
-
+  
+- The Toolkit won't work with long folder path or folder pathname containing spaces or special characters.
 - Using Toolkit with Antivirus Programs enabled can affect the Toolkit's operations.
-- Toolkit's ToolkitHelper.exe may be flagged as a Virus/Trojan/Malware Program, don't worry it's just a false positive sign.
+- Toolkit's component removal engine (ToolkitHelper.exe) may be flagged as a Virus/Trojan/Malware Program, don't worry it's just a false positive sign.
 - The Toolkit won't support source images pre-serviced with other similar tools.
 - The Toolkit won't support source images with mixed architectures.
 - Windows 8.1 - Default Metro Apps Pack missing Office OneNote appx file.
 - Windows 8.1 - Integrating Windows Remote Server Administration Tool (RSAT) along with other features will break the integration with an error code 0x80092004.
 - Windows 7,8.1,10 v1507/v1511/v1607/v1703/v1709/v1803 Component removal has been removed temporarily.
 - Windows 10 v1809 - Integrating or Installing Windows Updates after the component removal can restore removed components empty resource files/folders.
-- Windows 10 v1903/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Integrating or installing Windows updates after the component removal will restore the removed components and this is due to the recent change in Microsoft update mechanism.
-- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Component Removal requries a source image with supported cumulative update integrated.
+- Windows 10 v1903/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Performing Image Clean-up causes Ghost SFC error, Running SFC /SCANNOW command      will fix the issue.
+  
+- Windows 10 v1903/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Integrating or installing Windows updates after the component removal will          restore the removed components and this is due to the recent change in Microsoft update mechanism.
+  
+- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Component Removal requires a source image with supported cumulative update          integrated.
+  
+- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Component Removal do not support ARM64 source images.
 - Windows 10 v1809/v1909 - Removing Cortana breaks Start Menu, Taskbar and Settings App Search functionality.
-- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Removing Internet Explorer breaks DirectX 9.0c web installer and Photoshop CC web installer.
-- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Removing Map Control breaks Photos App image information.
-- Windows 10 v1703/v1709/v1803/v1809/v1903/v1909/v2004/v20H2/v21H1/v21H2, Windows 11 v21H2 - Custom User Account Picture integration is not working in Logon Screen although it's been displayed in Start Menu user icon.
+- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Removing Internet Explorer breaks DirectX 9.0c web installer and Photoshop CC web   installer.
+  
+- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Removing Map Control component breaks Photos App image information.
+- Windows 10 v1703/v1709/v1803/v1809/v1903/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Custom User Account Picture integration is not working in   Logon Screen although it's been displayed in Start Menu user icon.
+  
+- Windows 10 v1809/v1909/v2004/v20H2/v21H1/v21H2/v22H2, Windows 11 v21H2/v22H2 - Removing Cloud Experience Host requires fully unattended setup with                 SkipMachineOOBE setting enabled.
 
 </details>
 

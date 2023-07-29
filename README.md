@@ -21,6 +21,7 @@
 [![GitHub repo forks](https://img.shields.io/github/forks/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/devbytemehedi/msmg-toolkit/network)&#160;
 [![GitHub repo watchers](https://img.shields.io/github/watchers/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/devbytemehedi/msmg-toolkit/watchers)&#160;
 [![GitHub repo size](https://img.shields.io/github/repo-size/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/devbytemehedi/msmg-toolkit/archive/refs/heads/main.zip)
+
 </div>
 
 <div align="center">
@@ -50,7 +51,9 @@
 
 ## 👉 Installation
 
- ⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.5.7z" download> Toolkit_v13.5.7z </a>
+⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.5.7z" download> Toolkit_v13.5.7z </a>
+
+⬇️ **Checkout the Releases:** [latest releases](https://github.com/devbytemehedi/msmg-toolkit/releases)
 
 ⬇️ **Toolkit Archive:**
 [download.ru/archives](https://download.ru/folders/BiHp44Yh)
@@ -67,7 +70,6 @@
 ⬇️ **Mirror Download Page :** [opendirectory.luzea.de](https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/)
 
 </details>
-
 
 ## 👉 Features
 
@@ -102,9 +104,7 @@
   - Deploy Windows installation image either in .WIM/.ESD format through USB/DVD media.
 
 <details>
-  <summary>
-    <h3>👈 List of things this Toolkit can do</h3>
-  </summary>
+<summary><h3>👈 List of things this Toolkit can do</h3></summary>
 
 - Copy Source DVD Files from DVD Drive
 - Extract Source DVD Files from ISO Image
@@ -163,7 +163,7 @@
 
 ## 👉 Usage
 
-- Download the Toolkit archive (e.g: `Toolkit_v13.3.7z`) and Toolkit's Pack files.
+- Fist Download the Toolkit .
 
 - Unblock the downloaded Toolkit archive file by righting clicking on the archive file and choose `properties` and then click on `Unblock` button.
 
@@ -179,7 +179,7 @@
 
 - Go to Layout Tab and Increase the Height to 1000 in Screen Buffer Size Group Box.
 - Agree to Toolkit's `EULA` by pressing 'A' Key
-.
+  .
 - Press `Enter` Key to Continue.
 
 - Integrate all the features you want to add except the `.NET Framework 3.5` using the Integrate Feature Menu.
@@ -197,7 +197,7 @@
 - Re-Mount the Source
 
 - Add the `.NET Framework 3.5` using the Integrate Feature Menu
-.
+  .
 - Apply Changes.
 
 - Re-Build the Image.
@@ -222,7 +222,7 @@
 
 </details>
 
-### 👉  Similar or Related Tools
+### 👉 Similar or Related Tools
 
 - [NTLite](https://www.ntlite.com/)
 - [Tiny11Builder](https://github.com/ntdevlabs/tiny11builder)

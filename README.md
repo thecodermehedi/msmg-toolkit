@@ -29,14 +29,7 @@
 
 </div>
 
-<details>
-<summary>
-MSMG Toolkit is a tool that helps users customize and optimize Microsoft Windows installations. It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
-</summary>
-
-![](./msmg-toolkit-cover.png)
-
- </details>
+➡️ MSMG Toolkit is a tool that helps users customize and optimize Microsoft Windows installations. It is a useful tool for those who want to create a custom Windows installation disk that fits their specific needs. This tool is particularly useful for creating custom, bloat-free Windows installations.
 
 ## 👉 Precautions
 
@@ -57,7 +50,7 @@ MSMG Toolkit is a tool that helps users customize and optimize Microsoft Windows
 
 ## 👉 Installation
 
- ⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.4.7z" download> Toolkit_v13.4.7z </a>
+ ⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.5.7z" download> Toolkit_v13.5.7z </a>
 
 ⬇️ **Toolkit Archive:**
 [download.ru/archives](https://download.ru/folders/BiHp44Yh)

@@ -11,22 +11,22 @@
 
 <br>
 
-<!-- [![MSMG-Toolkit](https://socialify.git.ci/devbytemehedi/msmg-toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)](https://github.com/devbytemehedi/msmg-toolkit) -->
+<!-- [![MSMG-Toolkit](https://socialify.git.ci/thecodermehedi/msmg-toolkit/image?description=1&font=Jost&forks=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Auto)](https://github.com/thecodermehedi/msmg-toolkit) -->
 
 <!-- ![msmg-toolkit](./msmg-toolkit-cover.png) -->
 
 <div align="center">
 
-[![GitHub repo stars](https://img.shields.io/github/stars/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/devbytemehedi/msmg-toolkit/stargazers)&#160;
-[![GitHub repo forks](https://img.shields.io/github/forks/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/devbytemehedi/msmg-toolkit/network)&#160;
-[![GitHub repo watchers](https://img.shields.io/github/watchers/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/devbytemehedi/msmg-toolkit/watchers)&#160;
-[![GitHub repo size](https://img.shields.io/github/repo-size/devbytemehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/devbytemehedi/msmg-toolkit/archive/refs/heads/main.zip)
+[![GitHub repo stars](https://img.shields.io/github/stars/thecodermehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Stars)](https://github.com/thecodermehedi/msmg-toolkit/stargazers)&#160;
+[![GitHub repo forks](https://img.shields.io/github/forks/thecodermehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Forks)](https://github.com/thecodermehedi/msmg-toolkit/network)&#160;
+[![GitHub repo watchers](https://img.shields.io/github/watchers/thecodermehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)](https://github.com/thecodermehedi/msmg-toolkit/watchers)&#160;
+[![GitHub repo size](https://img.shields.io/github/repo-size/thecodermehedi/msmg-toolkit?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/thecodermehedi/msmg-toolkit/archive/refs/heads/main.zip)
 
 </div>
 
 <div align="center">
 
-[![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/devbytemehedi/msmg-toolkit-a-tool-for-customizing-and-optimizing-windows-installations-1g7b) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@devbytemehedi/msmg-toolkit-a-tool-for-customizing-and-optimizing-windows-installations-c7816a2029cf)
+[![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/thecodermehedi/msmg-toolkit-a-tool-for-customizing-and-optimizing-windows-installations-1g7b) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thecodermehedi/msmg-toolkit-a-tool-for-customizing-and-optimizing-windows-installations-c7816a2029cf)
 
 </div>
 
@@ -51,9 +51,9 @@
 
 ## 👉 Installation
 
-⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/devbytemehedi/msmg-toolkit/main/Toolkit_v13.5.7z" download> Toolkit_v13.5.7z </a>
+⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/thecodermehedi/msmg-toolkit/main/Toolkit_v13.5.7z" download> Toolkit_v13.5.7z </a>
 
-⬇️ **Checkout the Releases:** [latest releases](https://github.com/devbytemehedi/msmg-toolkit/releases)
+⬇️ **Checkout the Releases:** [latest releases](https://github.com/thecodermehedi/msmg-toolkit/releases)
 
 ⬇️ **Toolkit Archive:**
 [download.ru/archives](https://download.ru/folders/BiHp44Yh)

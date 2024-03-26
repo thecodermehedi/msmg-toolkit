@@ -51,9 +51,9 @@
 
 ## 👉 Installation
 
-⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/thecodermehedi/msmg-toolkit/main/Toolkit_v13.5.7z" download> Toolkit_v13.5.7z </a>
+⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/thecodermehedi/msmg-toolkit/main/Toolkit_v13.6.7z" download> Toolkit_v13.6.7z </a>
 
-⬇️ **Checkout the Releases:** [latest releases](https://github.com/thecodermehedi/msmg-toolkit/releases)
+<!-- ⬇️ **Checkout the Releases:** [latest releases](https://github.com/thecodermehedi/msmg-toolkit/releases) -->
 
 ⬇️ **Toolkit Archive:**
 [download.ru/archives](https://download.ru/folders/BiHp44Yh)

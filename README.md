@@ -103,8 +103,9 @@
 
   - Deploy Windows installation image either in .WIM/.ESD format through USB/DVD media.
 
+
 <details>
-<summary><h3>👈 List of things this Toolkit can do</h3></summary>
+<summary>👈 List of things this Toolkit can do</summary>
 
 - Copy Source DVD Files from DVD Drive
 - Extract Source DVD Files from ISO Image
@@ -202,8 +203,8 @@
 
 - Re-Build the Image.
 
-<details>
-<summary><h3>👈 Known Issues</h3></summary>
+
+<details><summary>👈 Known Issues</summary>
   
 - The Toolkit won't work with long folder path or folder pathname containing spaces or special characters.
 - Using Toolkit with Antivirus Programs enabled can affect the Toolkit's operations.

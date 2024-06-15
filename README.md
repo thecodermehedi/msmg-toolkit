@@ -51,25 +51,15 @@
 
 ## 👉 Installation
 
-⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/thecodermehedi/msmg-toolkit/main/Toolkit_v13.6.7z" download> Toolkit_v13.6.7z </a>
+⬇️ **Download the latest version:** <a href="https://raw.githubusercontent.com/thecodermehedi/msmg-toolkit/main/Toolkit_v13.7.7z" download> Toolkit_v13.7.7z </a>
 
-<!-- ⬇️ **Checkout the Releases:** [latest releases](https://github.com/thecodermehedi/msmg-toolkit/releases) -->
+⬇️ **Official Download Page :** [msmgtoolkit/download](https://msmgtoolkit.in/downloads.html)
 
 ⬇️ **Toolkit Archive:**
 [download.ru/archives](https://download.ru/folders/BiHp44Yh)
 
 ⬇️ **Toolkit Packs:**
 [download.ru/packs](https://download.ru/folders/xnIjBhOt)
-
-<details>
-<summary>👈 See More</summary>
-<br>
-
-⬇️ **Official Download Page :** [msmgtoolkit/download](https://msmgtoolkit.in/downloads.html)
-
-⬇️ **Mirror Download Page :** [opendirectory.luzea.de](https://opendirectory.luzea.de/LostED/%21done/%23%23OTHER/MSMG/ToolKit/)
-
-</details>
 
 ## 👉 Features
 
